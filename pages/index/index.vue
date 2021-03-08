@@ -1,9 +1,19 @@
 <template>
-	<view class="container">
-		
-		<view class="intro">本项目已包含uni ui组件，无需import和注册，可直接使用。在代码区键入字母u，即可通过代码助手列出所有可用组件。光标置于组件名称处按F1，即可查看组件文档。</view>
-		<text class="intro">详见：</text>
-		<uni-link :href="href" :text="href"></uni-link>
+	<view>
+		<view class="uni-margin-wrap">
+			<!-- indicator-dots indicator-active-color="#15efe5" autoplay -->
+			<swiper class="swiper" indicator-dots indicator-active-color="#229DDD" autoplay >
+				<swiper-item>
+					<image mode="scaleToFill" src="../../static/index/5efb164aa3886dc2be4ae230ad603d8.jpg" class="swiper-image"></image>
+				</swiper-item>
+				<swiper-item>
+					<image   mode="scaleToFill" src="../../static/index/8e5e8f7163eea82798f3bcf06994243.jpg" class="swiper-image"></image>
+				</swiper-item>
+				<swiper-item>
+					<image  mode="scaleToFill" src="../../static/index/95982ddc8600121842d31713ac7fed7.jpg"class="swiper-image"></image>
+				</swiper-item>
+			</swiper>
+		</view>
 	</view>
 </template>
 
@@ -11,19 +21,35 @@
 	export default {
 		data() {
 			return {
-				href: 'https://uniapp.dcloud.io/component/README?id=uniui'
+				
 			}
 		},
 		methods: {
-
+			
 		}
 	}
 </script>
 
-<style>
-	.container {
-		padding: 20px;
-		font-size: 14px;
-		line-height: 24px;
-	}
+<style scoped lang="less">
+
+.uni-margin-wrap {
+  
+ height:100%;
+  margin:0 0rpx;
+ }
+ .swiper {
+  height: 300rpx;
+  .swiper-item {
+   display: block;
+   line-height: 300rpx;
+   text-align: center;
+   
+  }
+  /*图片宽度设置100% ，高度300upx（设为auto图片无法显示）*/
+  .swiper-image{  
+      width:100%;  
+      height:100%; 
+  } 
+ }
+
 </style>
