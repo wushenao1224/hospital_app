@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "青鸟医院",
+    "navigationBarBackgroundColor": "#229DDD",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#229DDD",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/首页.png",
+        "selectedIconPath": "static/tabs/首页1.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabs/消息.png",
+        "selectedIconPath": "static/tabs/message.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabs/wode_mw.png",
+        "selectedIconPath": "static/tabs/wode_mw1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

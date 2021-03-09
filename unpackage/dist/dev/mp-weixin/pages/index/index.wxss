@@ -1,0 +1,22 @@
+.uni-margin-wrap.data-v-57280228 {
+  height: 100%;
+  margin: 0 0rpx;
+}
+.swiper.data-v-57280228 {
+  height: 300rpx;
+  /*图片宽度设置100% ，高度300upx（设为auto图片无法显示）*/
+}
+.swiper .swiper-item.data-v-57280228 {
+  display: block;
+  line-height: 300rpx;
+  text-align: center;
+}
+.swiper .swiper-image.data-v-57280228 {
+  width: 100%;
+  height: 100%;
+}
+.uni-card.data-v-57280228 {
+  width: 100% !important;
+  margin: 5px 0px !important;
+}
+
